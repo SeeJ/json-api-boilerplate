@@ -1,0 +1,37 @@
+
+// TYPOGRAPHY
+$font-root:              'root', Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+$font-size-root:         13px !default;
+$font-size-s:            .75rem !default;
+$font-size-m:            .85rem !default;
+$font-size-base:         1rem !default;
+$font-size-l:            1.15rem !default;
+$font-size-xl:           2rem !default;
+$font-size-xxl:          2.5rem !default;
+$font-weight-root:       normal !default;
+$line-height-root:       1.33333333 !default;
+
+$font-color-base:        #333 !default;
+$font-color-gray:        #9299a2 !default;
+
+// COLOR PALETTE
+$color-primary:          #42a5f5 !default;
+$color-secondary:        #ba68c8 !default;
+$color-success:          #4caf50 !default;
+$color-info:             #03a9f4 !default;
+$color-error:            #ef5350 !default;
+$color-warning:          #ff9800 !default;
+
+
+// GRAY PALETTE
+$color-gray-darker:            #2e2e2e !default;
+$color-gray-dark:              #3d3d3d !default;
+$color-gray:                   #cecccc !default;
+$color-gray-light:             #e6e5e8 !default;
+$color-gray-lighter:           #f0f0f0 !default;
+$color-gray-lightest:          #f9f7f7 !default;
+
+
+// TRANSITIONS
+$transition-base:        all .25s ease-out !default;
+$transition-fast:        all .15s ease-out !default;

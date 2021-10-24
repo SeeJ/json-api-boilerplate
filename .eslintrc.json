@@ -1,0 +1,43 @@
+{
+  "rules": {
+    "consistent-return": "off",
+    "padded-blocks": "off",
+    "no-console": "off",
+    "no-multiple-empty-lines": "off",
+    "brace-style": "off",
+    "@typescript-eslint/brace-style": [
+      "error", "stroustrup"
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 120
+      }
+    ],
+    "comma-dangle": "off",
+    "@typescript-eslint/comma-dangle": [
+      "error",
+      {
+        "arrays": "never",
+        "objects": "always-multiline",
+        "imports": "never",
+        "exports": "never",
+        "functions": "never"
+      }
+    ],
+    "no-trailing-spaces": [
+      "error",
+      {
+        "skipBlankLines": true,
+        "ignoreComments": true
+      }
+    ]
+  },
+  "extends": [
+    "airbnb",
+    "airbnb-typescript"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}

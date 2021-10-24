@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+  font-family: $font-root;
+  font-size: $font-size-root;
+  line-height: $line-height-root;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  height: 100%;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+body {
+  background: #f0f0f0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: $font-color-base;
+  font-family: $font-root;
+  font-size: $font-size-root;
+  line-height: $line-height-root;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.notification {
+  &__success {
+    background-color: $color-success;
+  }
+  &__error {
+    background-color: $color-error;
+  }
+  &__warning {
+    background-color: $color-warning;
+  }
+  &__info {
+    background-color: $color-secondary;
+  }
+}
